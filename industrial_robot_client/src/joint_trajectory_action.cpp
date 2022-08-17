@@ -39,7 +39,7 @@ namespace industrial_robot_client
 namespace joint_trajectory_action
 {
 
-const double JointTrajectoryAction::WATCHDOG_PERIOD_ = 1.0;
+const double JointTrajectoryAction::WATCHDOG_PERIOD_ = 3.0; // changed this from 1.0 seconds
 const double JointTrajectoryAction::DEFAULT_GOAL_THRESHOLD_ = 0.01;
 
 JointTrajectoryAction::JointTrajectoryAction() :
